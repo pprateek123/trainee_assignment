@@ -10,4 +10,5 @@ for words in input_strings:
 
 
 print(list(anagrams.values()))
-    
+
+   
