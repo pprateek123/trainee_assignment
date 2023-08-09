@@ -57,7 +57,6 @@ def visualise_data():
     st.dataframe(joined_data)
 
     
-
 def main():
     st.sidebar.title('Navigation')
     page_selection = st.sidebar.radio('Go to', [EMPLOYEE_PAGE, DEPARTMENT_PAGE, VISUALISE_PAGE])
@@ -69,6 +68,6 @@ def main():
     elif page_selection == VISUALISE_PAGE:
         visualise_data()
         
+
 if __name__ == "__main__" :
     main()
-   
